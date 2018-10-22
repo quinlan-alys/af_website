@@ -1,8 +1,9 @@
 @mixin heading-font {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic !important;
 }
 
 @mixin body-font {
-  font-family: 'Lato';
+  font-family: 'Roboto';
+  font-weight: 400;
 }
