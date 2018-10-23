@@ -1,0 +1,37 @@
+.music-releases {
+    .container {
+
+        img {
+            height: 250px;
+            width: 250px;
+        }
+
+        .row {
+            margin-top: 6rem; //for smooth scroll
+            .col-lg-6{
+                margin-top: 5em;
+
+                 p {
+                     margin-top: 1rem;
+                 }
+            } 
+
+            .col-lg-12 {
+                margin-top: 5em;
+
+                iframe {
+                    width: 320px;
+                    @media (min-width: 992px){ 
+                        width: 600px;
+                    }
+
+                }
+
+                p {
+                    margin-top: .5erm;
+                }
+            }
+        }
+    }
+
+}

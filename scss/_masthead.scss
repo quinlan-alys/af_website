@@ -2,7 +2,6 @@ header.masthead {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
   background-color: #3E3F5A;
   background-repeat: no-repeat;
   background-position: center center;
@@ -22,7 +21,7 @@ header.masthead {
       width: 20rem;
       background-size: contain;
       background-repeat: no-repeat;
-      margin: 0 auto;
+      margin: 0 auto 5em;
 
       @media (min-width: 650px){ 
         width: 30rem;
@@ -41,12 +40,7 @@ header.masthead {
        }
     }
 
-    .social-links {
-      a {
-       color: #959595;
-       padding: 0 1em 0 1em;
-      }
-    }
+
 
   }
 
@@ -55,7 +49,7 @@ header.masthead {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+  
     .masthead-content {
       .masthead-heading {
         font-size: 6rem;
@@ -66,3 +60,4 @@ header.masthead {
     }
   }
 }
+

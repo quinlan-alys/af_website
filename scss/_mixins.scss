@@ -1,9 +1,12 @@
 @mixin heading-font {
   font-family: 'IM Fell Double Pica', serif;
   font-style: italic !important;
+  color: #FFFFFF;
 }
 
 @mixin body-font {
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #3E3F5A;;
 }

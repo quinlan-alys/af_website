@@ -26,3 +26,33 @@ h6 {
 .rounded-pill {
   border-radius: 5rem;
 }
+
+footer {
+  background-color: #303146;
+}
+
+.social-links {
+  a {
+   color: #C5C5C5;
+   padding: 0 1em 0 1em;
+  }
+}
+
+//placeholder text change to white
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #fff;
+  font-weight: 300;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #fff;
+  font-weight: 300;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #fff;
+  font-weight: 300;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #fff;
+  font-weight: 300;
+}

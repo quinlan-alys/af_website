@@ -6,7 +6,9 @@
 
 body {
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #3E3F5A;
 }
 
 h1,
@@ -17,6 +19,7 @@ h5,
 h6 {
   font-family: 'IM Fell Double Pica', serif;
   font-style: italic !important;
+  color: #FFFFFF;
 }
 
 .btn-xl {
@@ -35,10 +38,43 @@ h6 {
   border-radius: 5rem;
 }
 
+footer {
+  background-color: #303146;
+}
+
+.social-links a {
+  color: #C5C5C5;
+  padding: 0 1em 0 1em;
+}
+
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+  font-weight: 300;
+}
+
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  font-weight: 300;
+}
+
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  font-weight: 300;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+  font-weight: 300;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #303146;
 }
 
 .navbar-custom .navbar-nav {
@@ -67,7 +103,6 @@ header.masthead {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
   background-color: #3E3F5A;
   background-repeat: no-repeat;
   background-position: center center;
@@ -90,7 +125,7 @@ header.masthead .masthead-content .avery_logo {
   width: 20rem;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  margin: 0 auto 5em;
 }
 
 @media (min-width: 650px) {
@@ -115,15 +150,9 @@ header.masthead .masthead-content .avery_gif {
   }
 }
 
-header.masthead .masthead-content .social-links a {
-  color: #959595;
-  padding: 0 1em 0 1em;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -165,4 +194,61 @@ header.masthead .masthead-content .social-links a {
 .btn-secondary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.tour-dates .container .row {
+  margin-top: 6rem;
+}
+
+.music-releases .container img {
+  height: 250px;
+  width: 250px;
+}
+
+.music-releases .container .row {
+  margin-top: 6rem;
+}
+
+.music-releases .container .row .col-lg-6 {
+  margin-top: 5em;
+}
+
+.music-releases .container .row .col-lg-6 p {
+  margin-top: 1rem;
+}
+
+.music-releases .container .row .col-lg-12 {
+  margin-top: 5em;
+}
+
+.music-releases .container .row .col-lg-12 iframe {
+  width: 320px;
+}
+
+@media (min-width: 992px) {
+  .music-releases .container .row .col-lg-12 iframe {
+    width: 600px;
+  }
+}
+
+.music-releases .container .row .col-lg-12 p {
+  margin-top: .5erm;
+}
+
+.contact .container .row {
+  margin-top: 4rem;
+}
+
+.contact .container .af_profile {
+  height: 450px;
+  width: 300px;
+}
+
+.contact .container .af_logo {
+  height: 150px;
+  width: 150px;
+}
+
+.bio .container .row {
+  margin-top: 6rem;
 }
