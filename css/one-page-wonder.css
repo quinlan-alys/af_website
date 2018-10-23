@@ -47,6 +47,10 @@ footer {
   padding: 0 1em 0 1em;
 }
 
+.social-links a:hover {
+  color: #FFFFFF;
+}
+
 input::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #fff;
@@ -205,33 +209,33 @@ header.masthead .masthead-content .avery_gif {
   width: 250px;
 }
 
-.music-releases .container .row {
+.music-releases .container .row.justify-content-center {
   margin-top: 6rem;
 }
 
-.music-releases .container .row .col-lg-6 {
+.music-releases .container .row.justify-content-center .col-lg-6 {
   margin-top: 5em;
 }
 
-.music-releases .container .row .col-lg-6 p {
+.music-releases .container .row.justify-content-center .col-lg-6 p {
   margin-top: 1rem;
 }
 
-.music-releases .container .row .col-lg-12 {
+.music-releases .container .row.justify-content-center .col-lg-12 {
   margin-top: 5em;
 }
 
-.music-releases .container .row .col-lg-12 iframe {
+.music-releases .container .row.justify-content-center .col-lg-12 iframe {
   width: 320px;
 }
 
 @media (min-width: 992px) {
-  .music-releases .container .row .col-lg-12 iframe {
+  .music-releases .container .row.justify-content-center .col-lg-12 iframe {
     width: 600px;
   }
 }
 
-.music-releases .container .row .col-lg-12 p {
+.music-releases .container .row.justify-content-center .col-lg-12 p {
   margin-top: .5erm;
 }
 
@@ -244,11 +248,24 @@ header.masthead .masthead-content .avery_gif {
   width: 300px;
 }
 
-.contact .container .af_logo {
+.contact .container img.af_logo {
   height: 150px;
   width: 150px;
+  margin: 2rem auto;
+}
+
+.contact .container h3 {
+  margin-bottom: 3rem;
+}
+
+.mailing_list .container {
+  margin-top: 6rem;
 }
 
 .bio .container .row {
   margin-top: 6rem;
+}
+
+.bio .container .row p {
+  margin-top: 4rem;
 }

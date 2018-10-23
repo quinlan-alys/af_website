@@ -10,9 +10,20 @@
             width: 300px;
         } 
 
-        .af_logo {
+        img.af_logo {
             height: 150px;
             width:150px;
+            margin: 2rem auto;
         }
+
+        h3 {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.mailing_list {
+    .container {
+        margin-top:6rem;
     }
 }
