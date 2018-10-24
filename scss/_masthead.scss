@@ -21,10 +21,11 @@ header.masthead {
       width: 20rem;
       background-size: contain;
       background-repeat: no-repeat;
-      margin: 0 auto 5em;
+      margin: 0 auto 0em;
 
       @media (min-width: 650px){ 
         width: 30rem;
+        margin: 0 auto 5em;
       }
 
       @media (min-width: 992px){ 

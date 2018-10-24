@@ -42,9 +42,20 @@ footer {
   background-color: #303146;
 }
 
+footer p {
+  margin: 1rem auto;
+  color: #959595;
+}
+
 .social-links a {
-  color: #C5C5C5;
-  padding: 0 1em 0 1em;
+  color: #00A7B4;
+  padding: 0 .2em 0 .2em;
+}
+
+@media (min-width: 992px) {
+  .social-links a {
+    padding: 0 1em 0 1em;
+  }
 }
 
 .social-links a:hover {
@@ -85,11 +96,18 @@ input:-ms-input-placeholder {
   margin: 0 auto;
 }
 
-.navbar-custom .navbar-nav .nav-item .nav-link {
+.navbar-custom .navbar-nav .nav-item a {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  color: #00A7B4 !important;
+}
+
+.navbar-custom .navbar-nav .nav-item a:hover {
+  color: #FFFFFF !important;
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
 }
 
 .navbar-custom.navbar-dark .navbar-toggler {
@@ -129,12 +147,13 @@ header.masthead .masthead-content .avery_logo {
   width: 20rem;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 auto 5em;
+  margin: 0 auto 0em;
 }
 
 @media (min-width: 650px) {
   header.masthead .masthead-content .avery_logo {
     width: 30rem;
+    margin: 0 auto 5em;
   }
 }
 
@@ -251,11 +270,16 @@ header.masthead .masthead-content .avery_gif {
 .contact .container img.af_logo {
   height: 150px;
   width: 150px;
-  margin: 2rem auto;
+}
+
+@media (min-width: 992px) {
+  .contact .container img.af_logo {
+    margin: 2rem auto;
+  }
 }
 
 .contact .container h3 {
-  margin-bottom: 3rem;
+  margin: 3rem auto;
 }
 
 .mailing_list .container {
