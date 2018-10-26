@@ -238,6 +238,7 @@ header.masthead .masthead-content .avery_gif {
 
 .music-releases .container .row.justify-content-center .col-lg-6 p {
   margin-top: 1rem;
+  font-style: italic;
 }
 
 .music-releases .container .row.justify-content-center .col-lg-12 {
@@ -263,14 +264,16 @@ header.masthead .masthead-content .avery_gif {
 }
 
 .contact .container .af_profile {
-  height: 400px;
-  width: 250px;
+  height: 18rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media (min-width: 450px) {
   .contact .container .af_profile {
-    height: 450px;
-    width: 300px;
+    height: 25rem;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -287,10 +290,6 @@ header.masthead .masthead-content .avery_gif {
 
 .contact .container h3 {
   margin: 3rem auto;
-}
-
-.mailing_list .container {
-  margin-top: 6rem;
 }
 
 .bio .container .row {

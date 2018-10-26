@@ -6,12 +6,14 @@
         }
 
         .af_profile {
-            height: 400px;
-            width: 250px;
+            height: 18rem;
+            margin: 0 auto;
+            width: 100%;
 
             @media (min-width: 450px){ 
-                height: 450px;
-                width: 300px;
+                height: 25rem;
+                margin: 0 auto;
+                width: 100%;
             }
             
         } 
@@ -31,8 +33,8 @@
     }
 }
 
-.mailing_list {
-    .container {
-        margin-top:6rem;
-    }
-}
+// .mailing_list {
+//     .container {
+//         margin-top:6rem;
+//     }
+// }
