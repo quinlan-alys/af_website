@@ -264,9 +264,9 @@ header.masthead .masthead-content .avery_gif {
 }
 
 .contact .container .af_profile {
-  height: 18rem;
+  height: 300px;
   margin: 0 auto;
-  width: 100%;
+  width: 200px;
 }
 
 @media (min-width: 450px) {
