@@ -6,8 +6,14 @@
         }
 
         .af_profile {
-            height: 450px;
-            width: 300px;
+            height: 400px;
+            width: 250px;
+
+            @media (min-width: 450px){ 
+                height: 450px;
+                width: 300px;
+            }
+            
         } 
 
         img.af_logo {
